@@ -1,0 +1,27 @@
+<!--pages/details/details.wxml-->
+<view>
+  <MyTitle></MyTitle>
+  <!-- 推荐视频 -->
+  <!-- 评论列表 -->
+  <view class="comment_wrap">
+    <!-- 评论标题 -->
+    <view class="comment_title">
+      评论 （100）
+    </view>
+    <view class="comment_list">
+      <view wx:for="{{commentList}}" wx:key="{{index}}" class="comment_item">
+        <view class="comment_user">
+          <image src="{{item.img}}" mode="widthFix"></image>
+        </view>
+        <view class="comment_info">
+          <view class="comment_detail">
+            <text class="author">{{item.author}}</text>
+            <text class="date">{{item.date}}</text>
+          </view>
+
+          <view class="comment_content">{{item.content}}</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

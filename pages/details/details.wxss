@@ -1,0 +1,55 @@
+/* pages/details/details.wxss */
+
+.comment_wrap {
+  margin-top: 10rpx;
+  height: 10rpx;
+}
+
+.comment_title {
+  padding: 10rpx;
+  font-size: 28rpx;
+}
+.comment_item{
+  margin-bottom: 10rpx;
+  padding: 10rpx;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #666;
+}
+.comment_info {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.comment_details {
+  display: flex;
+  justify-content: space-between
+}
+.comment_details .author{
+  font-size: 28rpx;
+  color: #000;
+}
+.comment_details .date{
+  color: #666;
+  font-size: 24rpx;
+}
+
+.comment_content {
+  font-size: 28rpx;
+  color: #000;
+
+}
+.comment_user{
+flex: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.comment_user image{
+  width: 60%;
+}
+.comment_list{
+
+}
